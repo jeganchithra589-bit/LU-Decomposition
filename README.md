@@ -30,7 +30,6 @@ End the program
 ## Program:
 (i) To find the L and U matrix
 ```
-/*
 Program to find the L and U matrix.
 Developed by: Jegan P
 RegisterNumber:21225240061
@@ -40,11 +39,10 @@ matrix=np.array(eval(input()))
 p,l,u=lu(matrix)
 print(l)
 print(u)
-*/
+
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
-/*
 Program to find the LU Decomposition of a matrix.
 Developed by: Jegan P
 RegisterNumber: 212225240061
@@ -56,7 +54,6 @@ piv,lu=lu_factor(matrix)
 result=lu_solve((piv,lu),constant)
 print(result)
 
-*/
 ```
 
 ## Output:

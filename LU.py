@@ -1,14 +1,21 @@
-# To print L and U matrix
+# Program to find the L and U matrix.
+# Developed by: Jegan P
+# RegisterNumber:21225240061
 import numpy as np
-#add the library to import lu
-A = np.array(eval(input()))
-#add the code to get the L and U matrix
+from scipy.linalg import lu
+matrix=np.array(eval(input()))
+p,l,u=lu(matrix)
+print(l)
+print(u)
 
-
-# To print X matrix (solution to the equations)
+# Program to find the LU Decomposition of a matrix.
+# Developed by: Jegan P
+# RegisterNumber: 212225240061
 import numpy as np
-#add the library to import lu_factor, lu_solve
-A = np.array(eval(input()))
-b = np.array(eval(input()))
-#add the code to get the solution of the matrix
+from scipy.linalg import lu_factor,lu_solve
+matrix=np.array(eval(input()))
+constant=np.array(eval(input()))
+piv,lu=lu_factor(matrix)
+result=lu_solve((piv,lu),constant)
+print(result)
 

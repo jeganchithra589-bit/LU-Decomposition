@@ -15,13 +15,13 @@ Import the numpy module to use the built-in functions for calculation
 Prepare the lists from each linear equations and assign in np.array()
 
 ## step 3:
-put the function in import from scipy.linalg import lu and find the lu matrix value
+Put the function in import from scipy.linalg import lu and find the lu matrix value
 
 ## step 4:
-pivote value and lu value put in the function lu_factor() and solve the result lu_solve the lu_solve((piv,lu),constant)
+Pivote value and lu value put in the function lu_factor() and solve the result lu_solve the lu_solve((piv,lu),constant)
 
 ## step 5:
-print the result and the value of L and U decomposition
+Print the result and the value of L and U decomposition
 
 ## Step 6:
 End the program
